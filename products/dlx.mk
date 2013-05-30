@@ -1,5 +1,5 @@
  # Inherit AOSP device configuration for dlx.
-$(call inherit-product, device/htc/dlx/full_dlx.mk)
+$(call inherit-product, device/htc/dlx/device_dlx.mk)
 
 # Inherit common cdma apns
 $(call inherit-product, vendor/aokp/configs/cdma.mk)
